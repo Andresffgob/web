@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="https://i.pinimg.com/736x/e1/10/70/e110709e6f0d4107a5f04baf5981a466.jpg" type="image/x-icon">
+    
+        <!-- Enlace a Font Awesome (versión 6.0.0) -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+    
+</head>
+<body>
+
+   <!-- Menú de navegación -->
+   <header class="navbar">
+    <div class="navbar-container">
+        <div class="logo" id="logo">
+            <img src="https://i.pinimg.com/736x/e1/10/70/e110709e6f0d4107a5f04baf5981a466.jpg" alt="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li> 
+                <li><a href="#hombre">Hombre</a></li>
+                <li><a href="#mujer">Mujer</a></li>
+                <li><a href="#ninos">Niños</a></li>
+                <li><a href="#descubre">Descubre</a></li>
+                <li><a href="#" id="favoritos-btn">Favoritos</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar">
+            <button class="search-btn"><i class='bx bx-search'></i></button>
+        </div>
+        <!-- Icono de usuario -->
+        <div class="user-icon">
+            <a href="login.html">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Mensajes en movimiento -->
+<div class="marquee">
+    <div class="marquee-content">
+        <span>¡Bienvenido a nuestra tienda!</span>
+        <span>Ofertas especiales para este mes.</span>
+        <span>¡Nuevos productos añadidos cada semana!</span>
+    </div>
+</div>
+
+
+<!-- Sección Principal -->
+<section class="main-section" id="inicio">
+    <div class="content">
+        <h1>PASIÓN POLO</h1>
+        <p>Descubre nuestra colección exclusiva de polos y ropa de calidad.</p>
+        <button>Descubre los modelos</button>
+    </div>
+    <div class="image-section">
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="https://tienda.utp.edu.co/wp-content/uploads/2022/09/Polo-institucional-mujer-crema-1.jpg" alt="Modelo 1">
+                <img src="https://tiendakalendar.vteximg.com.br/arquivos/ids/378624-307-470/POLO-KALENDAR-CTPF083-3068-AMA-0121_1.jpg?v=638235788897100000" alt="Modelo 2">
+                <img src="https://offcorss.vtexassets.com/arquivos/ids/795466-800-auto?v=638181094071670000&width=800&height=auto&aspect=true" alt="Modelo 3">
+                <img src="https://victor.com.co/cdn/shop/files/2Z7A8502.jpg?v=1722979767" alt="Modelo 4">
+            </div>
+            <button class="carousel-button left" aria-label="Previous">
+                <i class='bx bx-chevron-left'></i>
+            </button>
+            <button class="carousel-button right" aria-label="Next">
+                <i class='bx bx-chevron-right'></i>
+            </button>
+        </div>
+    </div>
+    
+    </div>
+</section>
+
+        
+<section class="productos-section">
+    <div class="productos-container">
+        <div class="producto" data-id="1">
+            <img src="https://media.aldoshoes.com/v3/product/tafarn/001-002-029/tafarn_black_001-002-029_main_sq_nt_800x800.jpg" alt="Producto 1">
+            <h3>Cartera clásica</h3>
+            <p>85.00 €</p>
+            <button class="add-favorites">
+                <i class="bx bx-heart"></i> Añadir a favoritos
+            </button>
+        </div>
+
+        <div class="producto" data-id="2">
+            <img src="https://cdnimg.etiquetaunica.com.br/products/large/camisa-polo-ralph-lauren-polo-listrada-roj110-1689856920-0000003_v2.jpg" alt="Producto 2">
+            <h3>Camisa de rayas</h3>
+            <p>55.00 €</p>
+            <button class="add-favorites">
+                <i class="bx bx-heart"></i> Añadir a favoritos
+            </button>
+        </div>
+
+        <div class="producto" data-id="3">
+            <img src="https://http2.mlstatic.com/D_Q_NP_2X_927758-MCO72730524475_112023-T.webp" alt="Producto 3">
+            <h3>Pantalones de chándal</h3>
+            <p>60.00 €</p>
+            <button class="add-favorites">
+                <i class="bx bx-heart"></i> Añadir a favoritos
+            </button>
+        </div>
+
+        <div class="producto" data-id="4">
+            <img src="https://www.tumodacreativa.com/wp-content/uploads/2022/06/Zapato-mocasin-para-hombre-color-azul..jpg" alt="Producto 4">
+            <h3>Zapatos de cuero</h3>
+            <p>120.00 €</p>
+            <button class="add-favorites">
+                <i class="bx bx-heart"></i> Añadir a favoritos
+            </button>
+        </div>
+
+        <div class="producto" data-id="5">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_626023-MLA48710302312_122021-O.webp" alt="Producto 5">
+            <h3>Reloj de pulsera</h3>
+            <p>200.00 €</p>
+            <button class="add-favorites">
+                <i class="bx bx-heart"></i> Añadir a favoritos
+            </button>
+        </div>
+
+        <div class="producto" data-id="6">
+            <img src="https://ovillova.com/wp-content/uploads/2021/12/2.jpg" alt="Producto 6">
+            <h3>Bufanda de lana</h3>
+            <p>45.00 €</p>
+            <button class="add-favorites">
+                <i class="bx bx-heart"></i> Añadir a favoritos
+            </button>
+        </div>
+
+        <div class="producto" data-id="7">
+            <img src="https://acdn.mitiendanube.com/stores/860/750/products/sombrero-fasth1-7249ad125c7c43844d16801104982855-640-0.png" alt="Producto 7">
+            <h3>Sombrero de paja</h3>
+            <p>35.00 €</p>
+            <button class="add-favorites">
+                <i class="bx bx-heart"></i> Añadir a favoritos
+            </button>
+        </div>
+
+        <div class="producto" data-id="8">
+            <img src="https://www.lidl.es/media/product/0/0/5/9/8/2/0/chaqueta-ligera-para-hombre-tallas-grandes-zoom--1.jpg" alt="Producto 8">
+            <h3>Chaqueta ligera</h3>
+            <p>75.00 €</p>
+            <button class="add-favorites">
+                <i class="bx bx-heart"></i> Añadir a favoritos
+            </button>
+        </div>
+
+        <div class="producto" data-id="9">
+            <img src="https://contents.mediadecathlon.com/p2579219/k$4c9b279bf885e5216350f43efdd0dec2/gafas-de-sol-categoria-3-adulto-montanismo-senderismo-mh100.jpg?format=auto&quality=40&f=452x452" alt="Producto 9">
+            <h3>Gafas de sol</h3>
+            <p>50.00 €</p>
+            <button class="add-favorites">
+                <i class="bx bx-heart"></i> Añadir a favoritos
+            </button>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-column">
+            <h4>PRODUCTOS</h4>
+            <ul>
+              <li><a href="#">Calzado</a></li>
+              <li><a href="#">Tenis</a></li>
+              <li><a href="#">Ropa</a></li>
+              <li><a href="#">Accesorios</a></li>
+              <li><a href="#">Guayos</a></li>
+              <li><a href="#">Rompevientos</a></li>
+              <li><a href="#">Sudaderas</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>DEPORTES</h4>
+            <ul>
+              <li><a href="#">Selección Colombia</a></li>
+              <li><a href="#">Millonarios</a></li>
+              <li><a href="#">Fútbol</a></li>
+              <li><a href="#">Ciclismo</a></li>
+              <li><a href="#">Running</a></li>
+              <li><a href="#">Basketball</a></li>
+              <li><a href="#">Training</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>ASISTENCIA</h4>
+            <ul>
+              <li><a href="#">Dudas Frecuentes</a></li>
+              <li><a href="#">Guía de Tallas</a></li>
+              <li><a href="#">Realizar Pedidos</a></li>
+              <li><a href="#">Productos adidas</a></li>
+              <li><a href="#">Ventas Por WhatsApp</a></li>
+              <li><a href="#">Pago</a></li>
+              <li><a href="#">Envío</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>INFORMACIÓN DE LA EMPRESA</h4>
+            <ul>
+              <li><a href="#">Acerca de adidas</a></li>
+              <li><a href="#">Trabaja en Nuestro Equipo</a></li>
+              <li><a href="#">Prensa</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>SÍGUENOS</h4>
+            <div class="social-icons">
+              <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook"></a>
+              <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png" alt="Instagram"></a>
+              <a href="#"><img src="https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebc6c19c2fe31de94c78e_X-vector-logo-download.png" alt="Twitter"></a>
+              <a href="#"><img src="https://images.sftcdn.net/images/t_app-icon-m/p/cd674e33-5951-4224-930e-fcf6a9b1c264/1162089526/pinterest-save-button-logo.png" alt="Pinterest"></a>
+              <a href="#"><img src="https://sf-static.tiktokcdn.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png" alt="TikTok"></a>
+              <a href="#"><img src="https://yt3.googleusercontent.com/ytc/AIdro_kgNRpyMXq61VuE9KspJfDlHewKrdLwm-9neNuIQ8DYboc=s900-c-k-c0x00ffffff-no-rj" alt="YouTube"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+</body>
+</html>
